@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding-right: 0px;
+}
+*::-webkit-scrollbar {
+    width: 10px;
+}
+*::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, #3f4c6b, #A1FFCE);
+    border-radius: 5px;
+}
+/*-----------------------------------------------------*/
+
+.header {
+    display: flex;
+    background: linear-gradient( #FAFAD2, #ABEBC6);
+    flex-basis: 100%;
+    height: 60px;
+    align-items: center;
+    padding: 3px 0;
+}
+.hea {
+    display: flex;
+    margin: 10px;
+}
+.hea-h3 {
+    letter-spacing: 3px;
+    text-shadow: 2px 2px #5cd54a;
+}
+.heac {
+    display: flex;
+    margin: 10px;
+}
+.hea-h3c {
+    margin-left: 500px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px #5cd54a;
+}
+.hea-ul {
+    display: flex;
+    list-style-type: none;
+}
+.hea-ul-li-a {
+    margin-left: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+}
+.hea-ul-li-ac {
+    color: #ef1014;
+    margin-left: 50px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.hea-ulc {
+    display: flex;
+    margin-left: auto;
+    padding: 0;
+    list-style-type: none;
+}
+/*-----------------------------------------------------*/
+
+.main {
+    display: flex;
+    background: #ABEBC6;
+    min-height: calc(100vh - 60px - 60px);
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.publicacion {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 400px;
+    width: 550px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.logo {
+    display: flex;
+    background-color: #52BE80;
+    height: 50px;
+    width: 520px;
+    margin: 10px;
+}
+.logo_img {
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+}
+.label_img {
+    color: #fff;
+    align-self: center;
+    margin-left: 10px;
+}
+.nb_cliente {
+    display: flex;
+    flex-direction: column;
+    background-color: #303030;
+    height: 320px;
+    width: 530px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+.nb1 {
+    display: flex;
+    background-color: #51ce6f;
+    width: 530px;
+    height: 265px;
+    border-radius: 15px;
+}
+.publicacion_img {
+    height: auto;
+    width: 530px;
+    border-radius: 15px;
+}
+.nb2 {
+    background-color: #52BE80;
+    width: 520px;
+    height: auto;
+    padding-left: 10px;
+    border-radius: 15px;
+    text-align: justify-all;
+    overflow: auto;
+}
+/*-----------------------------------------------------*/
+
+.footer {
+    background: linear-gradient(#ABEBC6, #FAFAD2);
+    height: 60px;
+    width: 100%;
+}
+.fo {
+    text-align: center;
+}
